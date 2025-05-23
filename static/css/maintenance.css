@@ -1,0 +1,199 @@
+:root {
+  --primary-blue: #00A6E6;
+  --dark-blue: #062C43;
+  --white: #FFFFFF;
+  --dark-grey: #333333;
+  --light-grey: #F5F7FA;
+  --medium-grey: #CCCCCC;
+  --font-family: 'Open Sans', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--white);
+  color: var(--dark-grey);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: var(--white);
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+}
+
+.maintenance-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.maintenance-icon {
+  color: var(--primary-blue);
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.maintenance-title {
+  font-size: 36px;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.maintenance-message {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: var(--dark-grey);
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+.contact-info {
+  margin-top: 20px;
+  background-color: var(--light-grey);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.contact-icon {
+  color: var(--primary-blue);
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-icon {
+  color: var(--primary-blue);
+  font-size: 24px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--dark-blue);
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: var(--primary-blue);
+  margin: 30px auto;
+}
+
+.footer {
+  background-color: var(--light-grey);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--dark-grey);
+  margin-top: auto;
+}
+
+.progress-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: var(--medium-grey);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: var(--primary-blue);
+  width: 70%;
+  border-radius: 5px;
+  animation: progress-animation 2s infinite alternate;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 60%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .maintenance-title {
+    font-size: 28px;
+  }
+  
+  .maintenance-message {
+    font-size: 16px;
+  }
+  
+  .maintenance-icon {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .maintenance-title {
+    font-size: 24px;
+  }
+  
+  .maintenance-container {
+    padding: 30px 15px;
+  }
+  
+  .contact-info {
+    padding: 15px;
+  }
+}
