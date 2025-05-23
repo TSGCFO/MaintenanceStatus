@@ -35,17 +35,7 @@ body {
   overflow: hidden;
 }
 
-.hero-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-image: url('../images/backgrounds/warehouse-bg.svg');
-  background-size: cover;
-  background-position: center;
-}
+/* Hero background is now handled by dynamic-background.css */
 
 .header {
   background-color: var(--primary-blue);
