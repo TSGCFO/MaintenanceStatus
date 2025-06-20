@@ -1,8 +1,8 @@
-# TSG Fulfillment Services Inc - Maintenance Website
+# Talencor Staffing - Maintenance Website
 
 ## Overview
 
-This is a maintenance page application for TSG Fulfillment Services Inc, built with Flask. The application displays a professional maintenance page while the main website undergoes improvements. It features a responsive design with animated background elements and TSG branding.
+This is a maintenance page application for Talencor Staffing, built with Flask. The application displays a professional maintenance page while the main website undergoes improvements. It features a responsive design with animated background elements and Talencor branding.
 
 ## System Architecture
 
@@ -10,7 +10,7 @@ This is a maintenance page application for TSG Fulfillment Services Inc, built w
 - **Static maintenance page**: Single-page application displaying maintenance status
 - **Responsive design**: Mobile-first approach with CSS Grid and Flexbox
 - **Dynamic animations**: CSS animations with JavaScript enhancements for background effects
-- **Brand consistency**: Uses TSG brand colors, fonts, and logo assets
+- **Brand consistency**: Uses Talencor brand colors (yellow theme), fonts, and logo assets
 
 ### Backend Architecture
 - **Framework**: Flask (Python web framework)
@@ -94,7 +94,8 @@ static/             # Static assets
 
 ## Changelog
 
-- June 20, 2025. Initial setup
+- June 20, 2025: Initial setup for TSG Fulfillment Services Inc
+- June 20, 2025: Complete rebrand to Talencor Staffing - updated logos, contact information, and color theme from blue to yellow
 
 ## User Preferences
 
