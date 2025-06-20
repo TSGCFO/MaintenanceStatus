@@ -1,12 +1,12 @@
 :root {
-  --primary-blue: #0f92e3; /* Updated to match brand guide */
-  --dark-blue: #062C43;
+  --primary-yellow: #f4b942; /* Talencor brand yellow */
+  --dark-yellow: #d89b2a;
   --white: #FFFFFF;
-  --dark-grey: #262525; /* Updated to match brand guide for text */
+  --dark-grey: #262525;
   --light-grey: #F5F7FA;
-  --medium-grey: #656565; /* Updated to match brand guide for tagline */
-  --font-family-heading: 'Alegreya Sans SC', Arial, sans-serif; /* From brand guide */
-  --font-family-body: 'Roboto', Arial, sans-serif; /* From brand guide */
+  --medium-grey: #656565;
+  --font-family-heading: 'Alegreya Sans SC', Arial, sans-serif;
+  --font-family-body: 'Roboto', Arial, sans-serif;
 }
 
 * {
@@ -38,7 +38,7 @@ body {
 /* Hero background is now handled by dynamic-background.css */
 
 .header {
-  background-color: var(--primary-blue);
+  background-color: var(--primary-yellow);
   padding: 15px 0;
   width: 100%;
   position: relative;
@@ -105,7 +105,7 @@ body {
 }
 
 .maintenance-icon {
-  color: var(--primary-blue);
+  color: var(--primary-yellow);
   font-size: 64px;
   margin-bottom: 30px;
 }
@@ -113,7 +113,7 @@ body {
 .maintenance-title {
   font-family: var(--font-family-heading);
   font-size: 32px;
-  color: var(--dark-blue);
+  color: var(--dark-yellow);
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -138,7 +138,7 @@ body {
 
 .contact-info h2 {
   font-family: var(--font-family-heading);
-  color: var(--dark-blue);
+  color: var(--dark-yellow);
   margin-bottom: 20px;
 }
 
@@ -157,11 +157,11 @@ body {
 }
 
 .contact-item:hover {
-  background-color: rgba(15, 146, 227, 0.05);
+  background-color: rgba(244, 185, 66, 0.05);
 }
 
 .contact-icon {
-  color: var(--primary-blue);
+  color: var(--primary-yellow);
   margin-right: 15px;
   font-size: 20px;
   width: 30px;
@@ -185,24 +185,24 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: var(--primary-blue);
+  background-color: var(--primary-yellow);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 8px rgba(15, 146, 227, 0.2);
+  box-shadow: 0 3px 8px rgba(244, 185, 66, 0.2);
 }
 
 .social-icon:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-yellow);
   transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(15, 146, 227, 0.3);
+  box-shadow: 0 6px 12px rgba(244, 185, 66, 0.3);
 }
 
 .divider {
   width: 80px;
   height: 4px;
-  background-color: var(--primary-blue);
+  background-color: var(--primary-yellow);
   margin: 40px auto;
 }
 

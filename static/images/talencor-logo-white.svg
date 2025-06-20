@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      .logo-text { 
+        fill: #ffffff; 
+        font-family: 'Arial', sans-serif; 
+        font-weight: bold; 
+        font-size: 72px; 
+        letter-spacing: 2px;
+      }
+      .logo-text-small { 
+        fill: #ffffff; 
+        font-family: 'Arial', sans-serif; 
+        font-weight: bold; 
+        font-size: 48px; 
+        letter-spacing: 8px;
+      }
+    </style>
+  </defs>
+  
+  <!-- Main TALENCOR text -->
+  <text x="50" y="80" class="logo-text">TALENCOR</text>
+  
+  <!-- STAFFING text -->
+  <text x="50" y="140" class="logo-text-small">STAFFING</text>
+  
+  <!-- Decorative lines similar to the original -->
+  <rect x="20" y="30" width="40" height="6" fill="#ffffff" rx="3"/>
+  <rect x="20" y="42" width="25" height="4" fill="#ffffff" rx="2"/>
+  <rect x="30" y="50" width="30" height="4" fill="#ffffff" rx="2"/>
+</svg>
